@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-label="Gallery 01 placeholder">
+  <defs>
+    <linearGradient id="bg01" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#efece3"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg01)"/>
+  <rect x="64" y="64" width="1072" height="772" rx="38" fill="rgba(11,11,12,.04)" stroke="rgba(11,11,12,.10)" stroke-width="2"/>
+  <text x="600" y="470" text-anchor="middle" font-family="Italiana, serif" font-size="58" fill="rgba(11,11,12,.52)">Event Photo</text>
+  <text x="600" y="530" text-anchor="middle" font-family="PT Sans, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="3" fill="rgba(11,11,12,.40)">01</text>
+</svg>
+

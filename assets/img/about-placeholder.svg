@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="1080" viewBox="0 0 820 1080" role="img" aria-label="About photo placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7f6f4"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="820" height="1080" rx="40" fill="url(#bg)"/>
+  <rect x="56" y="72" width="708" height="936" rx="30" fill="rgba(11,11,12,.04)" stroke="rgba(11,11,12,.12)" stroke-width="2"/>
+  <text x="410" y="558" text-anchor="middle" font-family="Italiana, serif" font-size="56" font-weight="400" fill="rgba(11,11,12,.50)">Anchor Surbhi</text>
+  <text x="410" y="612" text-anchor="middle" font-family="PT Sans, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="4" fill="rgba(11,11,12,.45)">PHOTO PLACEHOLDER</text>
+</svg>
+

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200" role="img" aria-label="Hero photo placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f1efe9"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="30%" cy="20%" r="70%">
+      <stop offset="0" stop-color="rgba(0,0,0,.10)"/>
+      <stop offset="1" stop-color="rgba(0,0,0,0)"/>
+    </radialGradient>
+  </defs>
+  <rect x="0" y="0" width="900" height="1200" rx="44" fill="url(#bg)"/>
+  <rect x="0" y="0" width="900" height="1200" rx="44" fill="url(#glow)"/>
+  <rect x="64" y="92" width="772" height="1016" rx="34" fill="rgba(11,11,12,.04)" stroke="rgba(11,11,12,.12)" stroke-width="2"/>
+  <path d="M190 774 L385 596 L510 720 L690 520 L804 690" fill="none" stroke="rgba(11,11,12,.18)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="320" cy="450" r="52" fill="rgba(11,11,12,.10)"/>
+  <text x="450" y="1020" text-anchor="middle" font-family="PT Sans, Arial, sans-serif" font-size="22" font-weight="700" fill="rgba(11,11,12,.62)">Replace with Surbhi’s hero photo</text>
+</svg>
+

@@ -164,5 +164,27 @@
       if (e.key === "ArrowLeft") prevImage();
     });
   }
+
+  // Video Overlay & Playback
+  const videoOverlay = document.getElementById("videoOverlay");
+  const showreelVideo = document.getElementById("showreelVideo");
+
+  if (videoOverlay && showreelVideo instanceof HTMLVideoElement) {
+    const playVideo = () => {
+      showreelVideo.play();
+      videoOverlay.classList.add("is-hidden");
+    };
+
+    videoOverlay.addEventListener("click", playVideo);
+
+    showreelVideo.addEventListener("play", () => {
+      videoOverlay.classList.add("is-hidden");
+    });
+
+    showreelVideo.addEventListener("pause", () => {
+      // Optional: show overlay again on pause if desired, 
+      // but usually users prefer it to stay hidden once they start watching.
+    });
+  }
 })();
 

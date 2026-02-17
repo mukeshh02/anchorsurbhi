@@ -58,8 +58,8 @@
 
         <div class="hero-media" aria-hidden="true">
           <div class="hero-photo-frame">
-            <img src="./assets/img/IMG_7843%202.JPG" alt="" width="900" height="1200" loading="eager"
-              decoding="async" />
+            <img src="./assets/img/IMG_7843%202.JPG" alt="Anchor Surbhi Hosting" width="600" height="800"
+              fetchpriority="high" loading="eager" decoding="async" />
           </div>
         </div>
       </div>
@@ -68,8 +68,8 @@
     <section class="section" id="about">
       <div class="container about-grid">
         <div class="about-media">
-          <img src="./assets/img/IMG_8225%202.jpg" alt="Anchor Surbhi" width="820" height="1080" loading="lazy"
-            decoding="async" />
+          <img src="./assets/img/IMG_8225%202.jpg" alt="Anchor Surbhi Professional Presence" width="600" height="800"
+            loading="lazy" decoding="async" />
         </div>
 
         <div class="about-copy">
@@ -213,8 +213,22 @@
         </p>
 
         <div class="video-frame" role="group" aria-label="Professional Showreel">
-          <video controls poster="./assets/img/hero.jpg">
-            <source src="" type="video/mp4" />
+          <div class="video-overlay" id="videoOverlay">
+            <div class="video-overlay-content">
+              <h3 class="video-overlay-title">Some glimpses of 2025</h3>
+              <button class="video-play-btn" aria-label="Play showreel">
+                <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="32" cy="32" r="32" fill="white" fill-opacity="0.2" />
+                  <circle cx="32" cy="32" r="28" fill="white" />
+                  <path d="M42 32L27 41V23L42 32Z" fill="black" />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <video id="showreelVideo" controls>
+            <source
+              src="https://previews.customer.envatousercontent.com/h264-video-previews/9f9cbaf1-a2c5-4c57-ab96-a35d6a7df036/56034766.mp4"
+              type="video/mp4" />
           </video>
         </div>
       </div>

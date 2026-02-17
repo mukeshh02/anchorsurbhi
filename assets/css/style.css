@@ -487,7 +487,7 @@ main>.section:first-child {
 }
 
 .service-social {
-  background-image: url('../img/service-social.jpg');
+  background-image: url('../img/service-social-original.jpg');
 }
 
 /* Video */
@@ -793,6 +793,10 @@ main>.section:first-child {
 
   .cards {
     grid-template-columns: 1fr
+  }
+
+  .card {
+    height: 280px;
   }
 
   .gallery-grid {
